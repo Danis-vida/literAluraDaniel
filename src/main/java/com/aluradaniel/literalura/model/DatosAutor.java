@@ -7,6 +7,7 @@ import org.aspectj.apache.bcel.classfile.Unknown;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record DatosAutor(
         @JsonAlias("name") String nombre,
-        @JsonAlias("birth_year") String fechaDeNacimiento
+        @JsonAlias("birth_year") String fechaDeNacimiento,
+        @JsonAlias("death_year") String fechaDeMuerte
 ) {
 }
