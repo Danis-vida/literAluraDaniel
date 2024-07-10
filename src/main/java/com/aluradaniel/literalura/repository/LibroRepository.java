@@ -1,2 +1,2 @@
-package com.aluradaniel.literalura.repository;public class LibroRepository {
+package com.aluradaniel.literalura.repository;public interface LibroRepository {
 }
